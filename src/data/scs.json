@@ -1,0 +1,170 @@
+{
+    "name": "Supreme Cloud Solutions",
+    "theme": "retro-90s-super",
+    "logo": "/images/scs-logo.jpg", 
+    "footer": {
+        "text": "© 2023 Supreme Cloud Solutions. All rights reserved.",
+        "contact": [
+            {
+                "name": "Email",
+                "value": "contact@supremecloudsolutions.com"
+            },
+            {
+                "name": "Phone",
+                "value": "(123) 456-7890"
+            },
+            {
+                "name": "Address",
+                "value": "123 Cloud Street, Huddersfield, UK"
+            }
+        ],
+        "social": [
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/supremecloudsolutions"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://www.twitter.com/supremecloud"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/supremecloudsolutions"
+            }
+        ]
+    },
+    "pages": [
+        {
+            "name": "Home",
+            "url": "/",
+            "content": [
+                {
+                    "type": "jumbotron/jumbotron",
+                    "heading": "Welcome to Supreme Cloud Solutions",
+                    "content": "<p>Supreme Cloud Solutions (SCS) is the premier cloud provider for Huddersfield, UK. Led by Nige Tinkersworth, CEO and Lord Protector, SCS offers innovative cloud solutions using 90s technology. Our data center is powered by USB-1 sticks and floppy disk drives, providing competitive prices that rival the big players in the industry.</p>"
+                },
+                {
+                    "type": "contentGrid/contentGrid",
+                    "items": [
+                        {
+                            "title": "Innovative Technology",
+                            "description": "Our data center uses USB-1 sticks and floppy disk drives to provide reliable cloud storage solutions.",
+                            "image": "/images/tech.jpg"
+                        },
+                        {
+                            "title": "Competitive Prices",
+                            "description": "We offer prices that can compete with the big boys, ensuring you get the best value for your money.",
+                            "image": "/images/prices.jpg"
+                        },
+                        {
+                            "title": "Responsive Navigation",
+                            "description": "Nige navigates the data center on neon roller blades, ensuring quick and efficient service.",
+                            "image": "/images/rollerblades.jpg"
+                        }
+                    ]
+                },
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Why Choose SCS?",
+                    "content": "<p>At Supreme Cloud Solutions, we believe in the power of innovation and nostalgia. Our unique approach to cloud storage combines the reliability of 90s technology with modern cloud concepts. Here's why you should choose us:</p><ul><li>Reliable and secure storage solutions</li><li>Competitive pricing</li><li>Personalized customer service</li><li>Environmentally friendly practices</li></ul>",
+                    "isReverse": false,
+                    "image": "/images/why-choose-us.jpg"
+                },
+                {
+                    "type": "testimonialCarousel/testimonialCarousel",
+                    "testimonials": [
+                        {
+                            "quote": "SCS provides the most reliable cloud storage I've ever used. Their unique approach is both innovative and nostalgic.",
+                            "author": "Jane Doe, Tech Enthusiast"
+                        },
+                        {
+                            "quote": "I was skeptical at first, but SCS's competitive prices and excellent service won me over. Highly recommend!",
+                            "author": "John Smith, Small Business Owner"
+                        },
+                        {
+                            "quote": "Nige's dedication to his work is evident in the quality of service provided by SCS. The neon roller blades are a nice touch!",
+                            "author": "Emily Johnson, IT Manager"
+                        }
+                    ]
+                },
+                {
+                    "type": "ctaBanner/ctaBanner",
+                    "text": "Ready to experience the future of cloud storage?",
+                    "buttonText": "Get Started",
+                    "buttonLink": "/services"
+                }
+            ]
+        },
+        {
+            "name": "Services",
+            "url": "/services",
+            "content": [
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Services",
+                    "content": "<p>At Supreme Cloud Solutions, we offer a range of cloud services designed to meet your needs. From cloud storage to data backup, we have you covered.</p>",
+                    "isReverse": false,
+                    "image": "/images/services.jpg"
+                },
+                {
+                    "type": "contentGrid/contentGrid",
+                    "items": [
+                        {
+                            "title": "Cloud Storage",
+                            "description": "Secure and reliable cloud storage solutions using USB-1 sticks and floppy disk drives.",
+                            "image": "/images/cloud-storage.jpg"
+                        },
+                        {
+                            "title": "Data Backup",
+                            "description": "Regular data backups to ensure your information is always safe and accessible.",
+                            "image": "/images/data-backup.jpg"
+                        },
+                        {
+                            "title": "Disaster Recovery",
+                            "description": "Comprehensive disaster recovery plans to protect your data in case of emergencies.",
+                            "image": "/images/disaster-recovery.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "About",
+            "url": "/about",
+            "content": [
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "About Nige Tinkersworth",
+                    "content": "<p>Nige Tinkersworth is the visionary behind Supreme Cloud Solutions. As the CEO and Lord Protector, he has built a unique data center using 90s technology. Despite his aversion to modern technology, Nige embraces modern thinking and has created a cloud solution that is both innovative and nostalgic.</p>",
+                    "isReverse": true,
+                    "image": "/images/nige.jpg"
+                },
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Mission",
+                    "content": "<p>Our mission is to provide reliable and affordable cloud solutions using unconventional technology. We believe in the power of innovation and strive to offer the best services to our clients.</p>",
+                    "isReverse": false,
+                    "image": "/images/mission.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Contact",
+            "url": "/contact",
+            "content": [
+                {
+                    "type": "jumbotron/jumbotron",
+                    "heading": "Get in Touch",
+                    "content": "<p>Contact us today to learn more about our services and how we can help you achieve your cloud storage goals. We look forward to working with you.</p>"
+                },
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Office",
+                    "content": "<p>Visit our office located in the heart of Huddersfield. Our friendly staff is ready to assist you with all your cloud storage needs. We offer a welcoming environment where you can discuss your requirements with confidence and receive the support you need.</p>",
+                    "isReverse": false,
+                    "image": "/images/office.jpg"
+                }
+            ]
+        }
+    ]
+}

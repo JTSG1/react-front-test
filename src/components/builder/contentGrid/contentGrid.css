@@ -1,0 +1,11 @@
+.content-grid{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.content-grid > * {
+    flex: 1 1 calc(33.333% - 10px);
+    margin:5px;
+}

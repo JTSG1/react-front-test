@@ -1,0 +1,41 @@
+
+
+.jumbotron {
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 2rem 1rem; /* Padding for the jumbotron */
+    margin-bottom: 2rem; /* Margin at the bottom */
+    border-radius: 0.3rem; /* Rounded corners */
+    text-align: center; /* Centered text */
+    padding-top:40px;
+    padding-bottom:40px;
+}
+  
+.jumbotron__title {
+    font-size: 2.5rem; /* Large font size for the title */
+    font-weight: 300; /* Light font weight */
+    margin-bottom: 1rem; /* Margin at the bottom */
+    color: #343a40; /* Dark grey color */
+}
+  
+.jumbotron__subtitle {
+    font-size: 1.25rem; /* Medium font size for the subtitle */
+    font-weight: 300; /* Light font weight */
+    margin-bottom: 1.5rem; /* Margin at the bottom */
+    color: #6c757d; /* Grey color */
+}
+  
+.jumbotron__button {
+    background-color: #007bff; /* Primary blue color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+  
+.jumbotron__button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,156 @@
+{
+    "name": "Dwarven Law Advocates Ltd",
+    "theme": "retro-90s-super",
+    "logo": "/images/dla-logo.jpg",
+    "footer": {
+      "text": "© 2021 Dwarven Law Advocates. All rights reserved.",
+      "contact": [
+        {
+          "name": "Email",
+          "value": "contact@dwarvenlaw.com"
+        },
+        {
+          "name": "Phone",
+          "value": "(123) 456-7890"
+        },
+        {
+          "name": "Address",
+          "value": "123 Dwarven Mine St, Mountain City"
+        }
+      ],
+      "social": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.twitter.com"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com"
+        }
+      ]
+    },
+    "pages": [
+      {
+        "name": "Home",
+        "url": "/",
+        "content": [
+          {
+            "type": "jumbotron/jumbotron",
+            "heading": "Welcome to Dwarven Law Advocates",
+            "content": "<p>We are the premier law firm specializing in representing discontent mining dwarves. Our mission is to ensure justice and fair treatment for all our clients. With a legacy of representing the ancient dwarves of all cultures, we have been the trusted legal advocates in several legal matters since our inception. Our team of dedicated lawyers is committed to providing the highest level of legal representation, ensuring that every client receives the attention and expertise they deserve. We understand the unique challenges faced by mining dwarves and are here to fight for your rights.</p>"
+          },
+          {
+            "type": "contentGrid/contentGrid",
+            "items": [
+              {
+                "title": "Experienced Lawyers",
+                "description": "Our team of experienced lawyers has a deep understanding of dwarven law and mining regulations. We have years of experience in handling complex legal matters and are well-versed in the intricacies of the legal system. Our lawyers are dedicated to providing personalized legal services tailored to the specific needs of each client.",
+                "image": "/images/dla-banner.jpg"
+              },
+              {
+                "title": "Successful Cases",
+                "description": "We have a proven track record of successfully representing our clients in various legal matters. Our firm has achieved numerous victories in court, securing favorable outcomes for our clients. We are proud of our success rate and strive to maintain our reputation as the leading law firm for mining dwarves.",
+                "image": "/images/dla-banner.jpg"
+              },
+              {
+                "title": "Client Testimonials",
+                "description": "Read what our satisfied clients have to say about our services. Our clients' testimonials speak to the quality of our legal representation and the positive impact we have had on their lives. We are honored to have earned the trust and respect of our clients through our dedication and hard work.",
+                "image": "/images/dla-banner.jpg"
+              }
+            ]
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Our Commitment",
+            "content": "<p>At Dwarven Law Advocates, we are committed to providing the highest level of legal representation to our clients. We understand the unique challenges faced by mining dwarves and are dedicated to fighting for their rights. Our expertise includes specializing in dragon attacks, ensuring that our clients receive the justice they deserve. Additionally, we offer legal advice on how to handle large gem finds, helping you navigate the complexities of ownership and distribution. Our commitment to excellence is unwavering, and we strive to achieve the best possible outcomes for our clients in every case we handle.</p>",
+            "isReverse": true,
+            "image" : "/images/image-2-sample.webp"
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Why Choose Us",
+            "content": "<p>We offer personalized legal services tailored to the specific needs of each client. Our team is passionate about achieving the best possible outcomes for our clients. One of our most notable cases involved representing Duran the 5th in the infamous Dragon attack of Smorg. Our expert legal team successfully defended Duran against false accusations and secured a historic victory, ensuring justice and fair treatment. This case solidified our reputation as the leading law firm for mining dwarves, capable of handling even the most challenging legal battles. We are dedicated to providing exceptional legal services and building lasting relationships with our clients based on trust and mutual respect.</p>",
+            "isReverse": false,
+            "image" : "/images/image-3-sample.webp"
+          },
+          {
+            "type": "jumbotron/jumbotron",
+            "heading": "Get in Touch",
+            "content": "<p>Contact us today to learn more about our services and how we can help you achieve your legal goals. We look forward to working with you. Our team is ready to provide the legal support and guidance you need to navigate the complexities of dwarven law. Whether you are facing a legal dispute or need advice on mining regulations, we are here to assist you every step of the way.</p>"
+          }
+        ]
+      },
+      {
+        "name": "About",
+        "url": "/about",
+        "content": [
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "About Our Firm",
+            "content": "<p>Dwarven Law Advocates was founded with the mission to provide exceptional legal representation to mining dwarves. Our team of dedicated lawyers has extensive experience in dwarven law and mining regulations. From the moment we arrived, we have been representing the noble dwarves in various legal matters, building a strong pedigree in our field. Our firm is built on a foundation of integrity, professionalism, and a deep commitment to our clients' success. We take pride in our ability to handle complex legal issues and deliver favorable results for our clients.</p>",
+            "isReverse": true
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Our History",
+            "content": "<p>Since our founding, we have successfully represented numerous clients in various legal matters. Our commitment to justice and fair treatment has earned us a reputation as the leading law firm for mining dwarves. Our legacy of representing ancient dwarves of all cultures has made us the trusted advocates in the realm. We have a rich history of legal excellence and a proven track record of achieving positive outcomes for our clients. Our firm's history is a testament to our dedication to the legal profession and our unwavering commitment to our clients' needs.</p>",
+            "isReverse": false
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "url": "/services",
+        "content": [
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Legal Representation",
+            "content": "<p>We provide comprehensive legal representation for mining dwarves in various matters, including labor disputes, mining accidents, and contract negotiations. Our team of skilled lawyers is equipped to handle a wide range of legal issues, ensuring that our clients receive the best possible representation. We are dedicated to protecting our clients' rights and achieving favorable outcomes in every case we handle.</p>",
+            "isReverse": true
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Consultation Services",
+            "content": "<p>Our team offers expert consultation services to help you navigate the complexities of dwarven law and mining regulations. We provide personalized legal advice and guidance to ensure that our clients are well-informed and prepared to make the best decisions for their legal matters. Our consultation services are designed to address the unique needs of each client, providing tailored solutions to complex legal issues.</p>",
+            "isReverse": false
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Dispute Resolution",
+            "content": "<p>We specialize in dispute resolution and mediation services to help resolve conflicts and achieve fair outcomes for our clients. Our team is experienced in handling a wide range of disputes, from labor disagreements to contractual conflicts. We are committed to finding amicable solutions that protect our clients' interests and promote long-term harmony. Our dispute resolution services are designed to minimize stress and provide effective resolutions to complex legal issues.</p>",
+            "isReverse": true,
+            "image": "/images/dispute-resolution.jpg"
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Mitigation Against Elven Claims",
+            "content": "<p>Our firm is well-versed in handling disputes with elves who often seek to claim dwarven riches and precious metals. We provide robust legal strategies to protect your assets and ensure that your wealth remains secure. Security is at the heart of our representation, and we are dedicated to safeguarding your interests against any external threats. Our team is experienced in dealing with elven claims and is prepared to defend your rights and assets with tenacity and expertise.</p>",
+            "isReverse": false,
+            "image": "/images/security.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Contact",
+        "url": "/contact",
+        "content": [
+          {
+            "type": "jumbotron/jumbotron",
+            "heading": "Reach Out to Us",
+            "content": "<p>Contact us today to schedule a consultation or learn more about our services. We are here to help you achieve your legal goals and ensure justice for the noble mining dwarves of the realms. Our team is ready to provide the legal support and guidance you need to navigate the complexities of dwarven law. Whether you are facing a legal dispute or need advice on mining regulations, we are here to assist you every step of the way.</p>"
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Our Office",
+            "content": "<p>Visit our office located in the heart of the dwarven mining district. Our friendly staff is ready to assist you with all your legal needs. We offer a welcoming environment where you can discuss your legal matters with confidence and receive the support you need. Our office is equipped with the latest resources to ensure that we provide the highest level of service to our clients.</p>",
+            "isReverse": false,
+            "image": "/images/dla-office.jpg"
+          }
+        ]
+      }
+    ]
+  }

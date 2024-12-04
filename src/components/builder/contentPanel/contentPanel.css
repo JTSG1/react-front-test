@@ -1,0 +1,29 @@
+.content-panel {
+    display: flex;
+    align-items: center !important;
+    margin: 1rem 0;
+    padding:10px;
+    width:100%;
+    margin:auto;
+}
+
+.content-panel__image {
+    flex: 0 0 auto;
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 1rem; /* Space between image and text */
+}
+
+.content-panel__content {
+    flex: 1 1 0; /* Allow the content to take up the remaining space */
+    text-align: left;
+}
+
+.content-panel--reverse {
+    flex-direction: row-reverse;
+}
+
+.content-panel__image--reverse {
+    margin-right: 0;
+    margin-left: 1rem;
+}

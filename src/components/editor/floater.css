@@ -1,0 +1,36 @@
+.floater{
+    width:150px;
+    height:150px;
+    background-color:#29B8FF;
+    border-radius: 10000000px;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 5px 5px 5px #000;
+    transition: 0.2s;
+}
+
+.floater:hover{
+    background-color:#b4daff;
+    cursor:pointer;
+}
+
+.floater__inner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.floater__inner img {
+    width: 50px;
+    padding:10px;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container */
+    max-height: 100%; /* Ensure it doesn't exceed the container */
+    transition: 0.3s;
+}
+
+.floater .floater__inner img:hover {
+    filter: invert(1);
+}

@@ -1,0 +1,28 @@
+.droppable-area{
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.droppable-area--over {
+    animation: pulseColor 1.5s infinite;
+}
+
+@keyframes pulseColor {
+    0% {
+        background-color: #f9f9f9;
+    }
+    50% {
+        background-color: #e0e0e0;
+    }
+    100% {
+        background-color: #f9f9f9;
+    }
+}

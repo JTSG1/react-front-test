@@ -1,0 +1,91 @@
+{
+    "name" : "Simple Sample Site",
+    "theme": "purple",
+    "footer": {
+      "text": "© 2021 Dwarven Law Advocates. All rights reserved.",
+      "contact": [
+        {
+          "name": "Email",
+          "value": "contact@dwarvenlaw.com"
+        },
+        {
+          "name": "Phone",
+          "value": "(123) 456-7890"
+        },
+        {
+          "name": "Address",
+          "value": "123 Dwarven Mine St, Mountain City"
+        }
+      ],
+      "social": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.twitter.com"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com"
+        }
+      ]
+    },
+    "pages" : [
+      {
+        "name" : "Home",
+        "url" : "/",
+        "content" : [
+          {
+            "type": "jumbotron/jumbotron",
+            "heading": "Welcome to our fantasy site",
+            "content": "<p>Welcome to our site for creative direction</p>"
+          },
+          {
+            "type": "contentGrid/contentGrid"
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "We are two",
+            "content": "<p>Our company was founded with the mission to deliver high-quality products and services to our customers. We believe in innovation, integrity, and excellence. Over the years, we have grown and evolved, but our core values have remained the same.</p><p>Learn more about our journey and the values that drive us. Our team is made up of dedicated professionals who are passionate about what they do. We work tirelessly to ensure that our customers receive the best possible experience.</p>",
+            "isReverse": true,
+            "image" : "/images/image-1-sample.webp"
+          },
+          {
+            "type": "contentPanel/contentPanel",
+            "title": "Able to overcome",
+            "content": "<p>We offer a wide range of services to meet your needs. From consulting to implementation, our team of experts is here to assist you every step of the way. We understand that every project is unique, and we tailor our services to meet your specific requirements.</p><p>Discover how we can help you achieve your goals. Our services include project management, technical support, and training. We work closely with you to ensure that your project is completed on time and within budget.</p>",
+            "isReverse": false,
+            "image" : "/images/image-2-sample.webp"
+          },
+          {
+            "type": "jumbotron/jumbotron",
+            "heading": "Get in touch",
+            "content": "<p>Contact us today to learn more about our services and how we can help you achieve your goals. We look forward to working with you.</p>"
+          }
+        ]
+      },
+      {
+        "name" : "About",
+        "url" : "/about",
+        "content" : [ {
+          "type": "contentPanel/contentPanel",
+          "title": "We are two",
+          "content": "<p>Some Additional Sample content to get in here</p>",
+          "isReverse": true,
+          "image" : "https://via.placeholder.com/450"
+        }]
+      },
+      {
+        "name" : "Services",
+        "url" : "/services",
+        "content" : []
+      },
+      {
+        "name" : "Contact",
+        "url" : "/contact",
+        "content" : []
+      }
+    ]
+  }

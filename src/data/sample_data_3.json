@@ -1,0 +1,155 @@
+{
+    "name": "Beard Accessory Store",
+    "theme": "retro-90s-super",
+    "logo": "/images/beard-accessory-store-logo.jpg",
+    "footer": {
+        "text": "© 2023 Beard Accessory Store. All rights reserved.",
+        "contact": [
+            {
+                "name": "Email",
+                "value": "contact@beardaccessorystore.com"
+            },
+            {
+                "name": "Phone",
+                "value": "(123) 456-7890"
+            },
+            {
+                "name": "Address",
+                "value": "456 Beard Street, Beard City, USA"
+            }
+        ],
+        "social": [
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/beardaccessorystore"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://www.twitter.com/beardaccessory"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/beardaccessorystore"
+            }
+        ]
+    },
+    "pages": [
+        {
+            "name": "Home",
+            "url": "/",
+            "content": [
+                {
+                    "type": "jumbotron/jumbotron",
+                    "heading": "Welcome to Beard Accessory Store",
+                    "content": "<p>Welcome to Beard Accessory Store, your go-to destination for all things beard accessories. We are passionate about providing the best products for bearded men and women everywhere. From beard oils to combs, we have everything you need to keep your beard looking its best.</p>"
+                },
+                {
+                    "type": "contentGrid/contentGrid",
+                    "items": [
+                        {
+                            "title": "Beard Oils",
+                            "description": "Our premium beard oils are made from natural ingredients to keep your beard soft and healthy.",
+                            "image": "/images/beard-oils.jpg"
+                        },
+                        {
+                            "title": "Beard Combs",
+                            "description": "Our handcrafted beard combs are designed to detangle and style your beard with ease.",
+                            "image": "/images/beard-combs.jpg"
+                        },
+                        {
+                            "title": "Beard Balms",
+                            "description": "Our beard balms provide the perfect hold and nourishment for your beard.",
+                            "image": "/images/beard-balms.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Products",
+            "url": "/products",
+            "content": [
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Products",
+                    "content": "<p>At Beard Accessory Store, we offer a wide range of products to meet all your beard care needs. Our products are carefully selected to ensure the highest quality and effectiveness.</p>",
+                    "isReverse": false,
+                    "image": "/images/products.jpg"
+                },
+                {
+                    "type": "contentGrid/contentGrid",
+                    "items": [
+                        {
+                            "title": "Beard Oils",
+                            "description": "Our premium beard oils are made from natural ingredients to keep your beard soft and healthy.",
+                            "image": "/images/beard-oils.jpg"
+                        },
+                        {
+                            "title": "Beard Combs",
+                            "description": "Our handcrafted beard combs are designed to detangle and style your beard with ease.",
+                            "image": "/images/beard-combs.jpg"
+                        },
+                        {
+                            "title": "Beard Balms",
+                            "description": "Our beard balms provide the perfect hold and nourishment for your beard.",
+                            "image": "/images/beard-balms.jpg"
+                        },
+                        {
+                            "title": "Beard Brushes",
+                            "description": "Our beard brushes are perfect for grooming and maintaining your beard.",
+                            "image": "/images/beard-brushes.jpg"
+                        },
+                        {
+                            "title": "Beard Trimmers",
+                            "description": "Our beard trimmers are designed for precision and ease of use.",
+                            "image": "/images/beard-trimmers.jpg"
+                        },
+                        {
+                            "title": "Beard Kits",
+                            "description": "Our beard kits include everything you need for complete beard care.",
+                            "image": "/images/beard-kits.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "About",
+            "url": "/about",
+            "content": [
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "About Us",
+                    "content": "<p>Beard Accessory Store was founded with a passion for beards and a commitment to providing the best products for bearded men and women everywhere. Our mission is to offer high-quality beard accessories that help you look and feel your best.</p>",
+                    "isReverse": true,
+                    "image": "/images/about-us.jpg"
+                },
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Story",
+                    "content": "<p>Our journey began with a simple idea: to create a store that caters to the unique needs of bearded individuals. We believe that a well-groomed beard is a symbol of confidence and style. That's why we are dedicated to offering products that enhance your beard care routine.</p>",
+                    "isReverse": false,
+                    "image": "/images/our-story.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Contact",
+            "url": "/contact",
+            "content": [
+                {
+                    "type": "jumbotron/jumbotron",
+                    "heading": "Get in Touch",
+                    "content": "<p>Contact us today to learn more about our products and how we can help you achieve the perfect beard. We look forward to hearing from you.</p>"
+                },
+                {
+                    "type": "contentPanel/contentPanel",
+                    "title": "Our Office",
+                    "content": "<p>Visit our office located in the heart of Beard City. Our friendly staff is ready to assist you with all your beard care needs. We offer a welcoming environment where you can discuss your requirements with confidence and receive the support you need.</p>",
+                    "isReverse": false,
+                    "image": "/images/office.jpg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+/* Retro 90s Theme - Teal, Orange, and Yellow */
+
+/* General Styles */
+body {
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Dark grey text */
+    font-family: 'Courier New', Courier, monospace; /* Retro font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #008080; /* Teal */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #ffa500; /* Orange border */
+}
+
+.navbar__heading {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__item {
+    margin-left: 1rem;
+}
+
+.navbar__link {
+    color: #000; /* Black text */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #ffa500; /* Orange */
+    border: 2px solid #008080; /* Teal border */
+    transition: background-color 0.3s;
+}
+
+.navbar__link:hover {
+    background-color: #ffcc00; /* Yellow */
+    color: #000; /* Black text */
+    border: 2px solid #008080; /* Teal border */
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-color: #008080; /* Teal */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    border: 3px solid #ffa500; /* Orange border */
+    margin-bottom: 2rem;
+}
+
+.jumbotron__heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+}
+
+.jumbotron__text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron__button {
+    background-color: #ffa500; /* Orange */
+    color: #000;
+    padding: 10px 20px;
+    border: 2px solid #008080; /* Teal border */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jumbotron__button:hover {
+    background-color: #ffcc00; /* Yellow */
+    color: #000; /* Black text */
+    border: 2px solid #008080; /* Teal border */
+}
+
+/* Content Grid Styles */
+.content-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-grid > * {
+    flex: 1 1 calc(30% - 10px); /* Three items per row */
+    margin: 5px;
+}
+
+.content-grid-item {
+    background-color: #fff;
+    border: 3px solid #ffa500; /* Orange border */
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.content-grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5); /* Shiny effect */
+}
+
+.content-grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.content-grid-item__content {
+    padding: 1rem;
+    text-align: center;
+    color: #000; /* Black text */
+}
+
+.content-grid-item__content h3 {
+    margin: 0.5rem 0;
+    color: #008080; /* Teal text */
+}
+
+.content-grid-item__content p {
+    margin: 0.5rem 0;
+}
+
+/* Content Panel Styles */
+.content-panel {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffa500; /* Orange background */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5); /* Shiny effect */
+}
+
+.content-panel__image {
+    flex: 0 0 auto;
+    width: 400px;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.content-panel__content {
+    flex: 1 1 0;
+    text-align: left;
+    color: #000; /* Black text */
+}
+
+.content-panel--reverse {
+    flex-direction: row-reverse;
+}
+
+.content-panel__image--reverse {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #008080; /* Teal */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 3px solid #ffa500; /* Orange border */
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.footer__section {
+    flex: 1 1 200px;
+    margin: 1rem;
+}
+
+.footer__section h4 {
+    margin-bottom: 0.5rem;
+    color: #008080; /* Teal text */
+}
+
+.footer__section p {
+    margin: 0.5rem 0;
+}
+
+.footer__bottom {
+    border-top: 3px solid #008080; /* Teal border */
+    padding-top: 1rem;
+}
+
+.footer__section a {
+    color: #000; /* Black text */
+    text-decoration: none;
+    background-color: #ffa500; /* Orange background */
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.footer__section a:hover {
+    background-color: #ffcc00; /* Yellow */
+    color: #000; /* Black text */
+}

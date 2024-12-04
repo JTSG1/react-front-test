@@ -1,0 +1,25 @@
+.testimonial-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.testimonial-carousel__content {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.testimonial-carousel button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.testimonial-carousel button:hover {
+    color: #0056b3;
+}
